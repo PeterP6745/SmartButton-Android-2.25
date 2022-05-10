@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="100"
+        android:title="@string/action_logout"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_change_language"
+        android:orderInCategory="60"
+        android:title="@string/language_setting"
+        android:visible="false"
+        app:showAsAction="never"/>
+</menu>

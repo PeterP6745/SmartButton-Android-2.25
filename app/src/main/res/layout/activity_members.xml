@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:text=""
+        android:id="@+id/fNameReceiver"
+        android:layout_marginTop="88dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:textSize="26sp"
+        android:background="@color/blue_light"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/emailReceiver"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/fNameReceiver"
+        android:layout_alignLeft="@+id/fNameReceiver"
+        android:layout_alignStart="@+id/fNameReceiver"
+        android:background="@color/blue_light"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/fNameSender"
+        android:textSize="26sp"
+        android:textAlignment="center"
+        android:textStyle="normal|bold"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/emailReceiver"
+        android:layout_alignStart="@+id/emailReceiver"
+        android:background="@color/yellow_light"/>
+
+    <TextView
+        android:text=""
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/emailSender"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:layout_below="@+id/fNameSender"
+        android:layout_alignLeft="@+id/fNameSender"
+        android:layout_alignStart="@+id/fNameSender"
+        android:background="@color/yellow_light"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:context=".activities.identity.ContactActivity">
+    <item
+        android:id="@+id/action_add_contact"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_person_add_white_48dp"
+        android:title="@string/add_from_contact"/>
+
+
+</menu>

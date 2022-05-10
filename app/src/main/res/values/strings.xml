@@ -1,0 +1,463 @@
+<resources>
+    <string name="app_name">SmartButton</string>
+    <string name="smart_button">Smart Button® </string>
+    <string name="action_settings">Settings</string>
+
+    <string name="test_string">This is a test</string>
+
+    <string name="select_language">Select a language</string>
+    <string-array name="lang_select">
+        <item>English</item>
+        <item>Spanish</item>
+    </string-array>
+
+    <string name="test_text">Select a language</string>
+
+    <!-- HelpActivity.java -->
+    <string name="error_message">Failed to load your resources. Please close and open the Smart Button® app to try again.</string>
+
+    <!-- activity_notifications_menu -->
+    <string name="push_notifications">Push Notifications</string>
+    <string name="view_list_of_push_notifications">View list of push notifications</string>
+    <string name="emergency_broadcast">Send Emergency Broadcasts</string>
+    <string name="send_to_app_or_desktop">Send Broadcasts to apps or desktops</string>
+
+    <string name="broadcast_message">Broadcast Message</string>
+    <string name="hint">Enter broadcast message here</string>
+    <string name="canned_message">-Choose a Canned Message-</string>
+    <string name="send_to_apps">Send to Apps</string>
+    <string name="send_to_desktop">Send to Desktops</string>
+    <string name="send_broadcast">Send Broadcast</string>
+    <string name="clear_broadcast">Clear Broadcasts</string>
+    <string name="conversations_title">Conversations</string>
+    <string name="forgot_password_title">Forgot Password</string>
+    <string name="notifications_title">Notifications/Broadcasts</string>
+    <string name="add_room_info_title">Add Room Information</string>
+    <string name="identity">Identity</string>
+    <string name="help">Help/Resources</string>
+    <string name="notifications_action_bar">Notifications</string>
+    <string name="conversations_action_bar">Conversations</string>
+    <string name="select_image_title">Add Photo</string>
+    <string name="conversation_members">Conversation Members</string>
+    <string name="success_alert">Your Smart Button alert has been sent successfully.</string>
+    <string name="smartbutton_disabled">Smart Button is disabled!</string>
+    <string name="smartbutton_disabled_law">Law enforcement users are not allowed to press the Smart Button. If you wish to send a broadcast, please use the "Notifications" tab to access the "Send Emergency Broadcasts" section</string>
+    <string name="success_alert_title">Success</string>
+    <string name="select_title">-Select Title-</string>
+    <string name="disabled">DISABLED</string>
+    <string name="disabled_message">The SmartButton is currently disabled. Please wait until the SmartButton is re-enabled.</string>
+    <string name="location_error">Location settings are inadequate, and cannot be  +
+                                    fixed here. Fix in Settings.</string>
+
+    <!-- chatitem_list_content -->
+    <string name="input_message">Input message</string>
+    <string name= "send_chatitem">Send</string>
+
+    <!-- chatitem_detail -->
+    <string name="chat_name">John Doe</string>
+    <string name="text_message">Text Message</string>
+
+    <!-- activity_locate_me_edit -->
+    <string name="my_identity_lbl">My Identity</string>
+    <string name="reveal_your_name_lbl">Enter name</string>
+    <string name="question_button_text1">Select COVID-19 Status</string>
+    <string name="spinner_title" translatable="false">Select COVID-19 Status</string>
+
+    <string name="reveal_your_email_lbl">Enter email</string>
+    <string name="reveal_your_cellphone_lbl">Enter cellphone</string>
+
+    <string name="reveal_your_staff_id_lbl">Enter staff ID</string>
+    <string name="your_picture_lbl">your picture</string>
+    <string name="staff_id_lbl">Staff ID</string>
+    <string name="select_your_school_lbl">Select your school</string>
+    <string name="add_incident_contacts_lbl">"Add contacts for Smart Button®  use "</string>
+    <string name="add_social_media">Add social media</string>
+    <string name="patent_notice">Powered by Anonymous Alerts® Patented (U.S. Patent No. 9,071,579)</string>
+    <string name="title_activity_emergency_dial">Emergency Dial</string>
+    <string name="title_activity_locate_me_contact">Contact manager</string>
+    <string name="title_activity_locate_me_edit">Identity</string>
+    <string name="title_activity_locator">Smart Button®</string>
+    <string name="identity_name">Name</string>
+    <string name="identity_photo">Photo</string>
+    <string name="identity_email">Email</string>
+    <string name="identity_phone">Phone</string>
+    <string name="identity_room_info">Add room information</string>
+    <string name="identity_save_info">Save Information</string>
+    <string name="identity_change_photo">Change\nPhoto</string>
+    <string name="identity_default_emergency">Default Emergency Contacts</string>
+
+    <!--EULA-->
+    <string name="accept">Accept</string>
+    <string name="eula">COPYRIGHTS</string>
+
+    <!-- demo -->
+    <string name="showcase_smart_button">In an emergency, press and hold the Smart Button®  for 3 seconds to report your location</string>
+    <string name="got_it">Next</string>
+    <string name="call_911">In an emergency press this button in order to call 911</string>
+    <string name="select_school">Choose your school</string>
+    <string name="select_message">Choose your incident type</string>
+    <string name="show_enter_name">You must first add or update your information before using the Smart Button®  in “Identity”. Firstly, you must provide your name.</string>
+    <string name="choose_picture">Choose your picture</string>
+    <string name="choose_title">Choose your title</string>
+    <string name="show_choose_school">You must provide your school/building/campus</string>
+    <string name="show_choose_title">You must provide your title</string>
+    <string name="add_emergency_contacts">Add your emergency contacts</string>
+    <string name="default_contact">These are your default contacts</string>
+    <string name="save_identity">Save your identity information</string>
+    <string name="show_add_your_picture">Add Your Picture</string>
+    <string name="update_available">Update available</string>
+    <string name="update">Update</string>
+    <string name="not_now">Not now</string>
+    <string name="new_version">A new version of this app is available. Please update now</string>
+    <string name="show_default_contact">Here is an example of a default contact. The Default Contacts are entered by your organization. You may be able to add emergency contacts. You can add up to five personal emergency contacts.</string>
+
+    <string name="login">Setup/Login</string>
+    <string name="password">Password </string>
+    <string name="prompt_account">Username</string>
+    <string name="forgotpass_toast1">Your account information has been sent to the email provided!</string>
+    <string name="forgotpass_toast2">The email provided is not associated with a registered Smart Button® account</string>
+    <string name="forgotpass_error1">Something went wrong, please try again later</string>
+    <string name="home_dialogbutton_updateidentity">Update Profile</string>
+
+
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_username_required">Username is required</string>
+    <string name="error_password_required">Password field is required</string>
+
+
+    <string name="action_sign_in_register"><b>Sign in</b> or register</string>
+
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_account">This username is invalid</string>
+    <string name="action_logout">Sign Out</string>
+    <string name="action_help">Help</string>
+    <string name="action_chat">Chat</string>
+    <string name="add_from_contact">Add from contact</string>
+    <string name="smart_button_html"><![CDATA[<strong><font color=#000000>Smart </font><font color=#FF0000>Button</font><font color=#000000>\u00AE</font></strong>]]></string>
+    <string name="update_contact">Update</string>
+
+
+    <string name="failed">Failed to show</string>
+    <string name="add_incident_contacts">Add emergency contacts</string>
+    <string name="add_your_picture">Add your picture</string>
+    <string name="no_emergency_contacts">No emergency contact added</string>
+
+    <!-- icons -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_help_white_36dp</item>
+        <item>@drawable/ic_link_white_36dp</item>
+        <item>@drawable/ic_video_library_white_36dp</item>
+        <item>@drawable/ic_slideshow_white_36dp</item>
+        <item>@drawable/ic_procedures_white_36dp</item>
+        <item>@drawable/ic_help_black_24dp</item>
+        <item>@drawable/ic_link_black_24dp</item>
+        <item>@drawable/ic_video_library_black_24dp</item>
+        <item>@drawable/ic_slideshow_black_24dp</item>
+        <item>@drawable/ic_procedures_black_24</item>
+        <item>@drawable/ic_map_white_36dp</item>
+        <item>@drawable/ic_map_black_24dp</item>
+
+
+    </array>
+
+    <string name="title_activity_chat">Chat</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_pushnotifications_list">Items</string>
+    <string name="title_pushnotifications_detail">PushNotifications Detail</string>
+
+    <!-- GCM -->
+    <string name="gcm_send_message">Token retrieved and sent to server! You can now use gcm sender to
+        send downstream messages to this app.</string>
+    <string name="registering_message">Generating InstanceID token</string>
+    <string name="token_error_message">An error occurred while either fetching the InstanceID token,
+        sending the fetched token to the server or subscribing to the PubSub topic. Please try
+        running the sample again.</string>
+    <string name="gcm_defaultSenderId_res">334368165423</string>
+    <string name="anonymous_patent" translatable="false">Anonymous Alerts® Patented (U.S. Patent No. 9,071,579)</string>
+    <string name="message">Messages</string>
+    <string name="title_activity_help_new">Help</string>
+    <string name="title_activity_splash">SmartButton</string>
+    <string name="title_activity_email_confirm">Email Confirmation</string>
+    <string name="title_activity_password_reset">Password Reset</string>
+    <string name="no_message_received_yet">No message received yet</string>
+    <string name="contacts">Contacts</string>
+    <string name="title_chatitem_list">Conversations</string>
+    <string name="conversation_hint">Type Message</string>
+    <string name="title_chatitem_detail">Conversation Messages</string>
+    <string name="title_activity_create_conversation">Create Conversation</string>
+    <string name="title_activity_choose_receiver">ChooseReceiverActivity</string>
+    <string name="emergency_contact_string">Emergency Contacts</string>
+    <string name="take_a_photo">TAKE A PHOTO</string>
+    <string name="select_a_photo">SELECT A PHOTO</string>
+    <string name="take_a_video">TAKE A VIDEO</string>
+    <string name="select_a_video">SELECT A VIDEO</string>
+    <string name="attach_media">Attach Media</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="reveal_you_room_lbl">Enter room</string>
+    <string name="add_room_information">Add Room Information</string>
+    <string name="room_number">Room Number</string>
+    <string name="floor_number">Floor Number</string>
+    <string name="description">Description</string>
+    <string name="save_information">Save Information</string>
+
+
+
+    <string name="send">Send</string>
+    <string name="view">View</string>
+    <string name="send_notifications">Send Notifications</string>
+    <string name="send_an_emergency_broadcast_or_push_notification">Send an Emergency Broadcast or Push Notification</string>
+    <string name="emergency_conversations">Emergency Conversations</string>
+    <string name="_2_way_conversations">2-Way Conversations</string>
+    <string name="view_list_of_emergency_conversations">View list of emergency conversations</string>
+    <string name="view_list_of_2_way_conversations">View list of 2-Way conversations</string>
+
+    <string name="mobile_2_way_conversations">Mobile 2-Way Conversations</string>
+    <string name="access_one_way">Access 1-to-1 conversations</string>
+    <string name="conversations_mobile">Mobile</string>
+    <string name="conversations_mobile_desktop">Desktop/Mobile</string>
+    <string name="access_emergency_conversations">Access Emergency Conversations</string>
+
+    <string name="notifications">Notifications</string>
+    <string name="send_emergency_broadcast">Send Emergency Broadcast</string>
+    <string name="e_2way_conversations">Emergency 2-Way Conversations</string>
+    <string name="conversations">Conversations</string>
+    <string name="notif_broadcasts">Notifications/Broadcasts</string>
+    <string name="mobile_2way_conversations">Mobile 2-Way Conversations</string>
+    <string name="push_notifications_title">Push Notifications</string>
+    <string name="fcm_token" translatable="false">FCM Token: %s</string>
+    <string name="default_channel_name">Smart Button® - Emergency Broadcasts</string>
+    <string name="default_channel_description">Receive notifications for new emergency broadcasts.</string>
+    <string name="default_channel_id">emergency_broadcasts_channel</string>
+
+    <string name="geo_channel_name">Geofence Notifications</string>
+    <string name="geo_channel_description">Will play alarm sound and display notification in top bar</string>
+
+
+    <!-- Geofence Notification -->
+    <string name="GeoNotification.Title">Smart Button Geofence</string>
+    <string name="GeoNotification.Text">You have entered %1$s!!!</string>
+    <string name="permission_rationale">"The SmartButton alert system requires that location services be enabled 1."</string>
+    <string name="permission_denied_explanation">"The SmartButton alert system requires that location services be enabled 2."</string>
+    <string name="settings">100</string>
+
+    <!-- Notification Tab -->
+    <string name="notifdetail_string_header">Message Details</string>
+    <string name="notifdetail_string_date">Date:</string>
+    <string name="notifdetail_string_message">Message:</string>
+    <string name="notifdetail_string_firstopened">First Opened:</string>
+    <string name="language_setting">Language Settings </string>
+    <string name="cancel">Cancel</string>
+    <string name="change">Change</string>
+    <string name="notiflist_progressdialog1">Loading your most recent notifications, please wait...</string>
+
+    <!-- members_list_content -->
+    <string name="first_name">First Name</string>
+    <string name="email_name">Email</string>
+
+    <!--Home Activity-->
+    <string name="outside_statement_debug">Outside of if statement in updateValuesFromBundle</string>
+    <string name="Not_Null">SavedInstanceState not Null - updateValuesFromBundle</string>
+    <string name="Before_Key">This is before the key</string>
+    <string name="Enable_Location">Enable Location</string>
+    <string name="Location_Settings_set_Off">Your Locations Settings is set to \'Off\'.\nPlease Enable Location to use this app</string>
+    <string name="Phonecall_not_supported">Phone call is not supported in this device</string>
+    <string name="Not_Connected_To_Internet">You are not connected to internet.</string>
+    <string name="Failed_Covid_Survey">Failed to process your COVID-19 survey response at this time, please try again.</string>
+    <string name="geo_alert_message">Please Enter Your Building\'s Active Zone to Use The Smart Button</string>
+    <string name="geo_alert_title">Away From Active Zone</string>
+    <string name="question_title1">Since the last time you reported to school, have you had any of the following symptoms?</string>
+    <string name="clear_selections">Clear Selections</string>
+
+    <string name="processing_covid_survey">Processing your COVID-19 Survey response, please wait...</string>
+    <string name="processing_smartbutton_alert"> Processing your Smart Button alert, please wait...</string>
+    <string name="Failed_Survey_Network_Issue">Failed to process your COVID-19 survey response at this time because of a network connection issue. Please make sure you have a stable network connection before sending a report.</string>
+    <string name="Profile_Info_Missing">Profile Information Missing</string>
+    <string name="Make_Sure_Info_Completed">Please make sure you\'ve filled out the \'Name\' field and have selected a school as part of your profile in the \'Identity\' tab. You must complete your profile before using the Smart Button.</string>
+    <string name="Failed_Locate">Failed to Locate</string>
+    <string name="Failed_to_find_location">Failed to find your location, make sure location services are turned on and that you have a stable network connection.</string>
+    <string name="Error_Title">Error</string>
+    <string name="Failed_to_Send_Alert">Your Smart Button alert could not be sent, please try again.</string>
+    <string name="Location_Services_Not_Available">Location Services Not Active</string>
+    <string name="Enable_Location_Services">Please enable Location Services and GPS</string>
+    <string name="location_services_disabled">Location Services are Disabled</string>
+    <string name="location_services_disabled_message">Location services are currently turned off. Are you sure you\'d like to send a Smart Button® Report without reporting your location?</string>
+    <string name="Remaining_Time">remaining time = </string>
+    <string name="settings_dialog">No - Go to Settings</string>
+    <string name="yes_dialog">Yes - Send the Report</string>
+    <string name="Information_Saved">Information has been saved successfully!</string>
+    <string name="Information_Error">There was an error in saving your information!</string>
+    <string name="loading_user_profile">Loading your profile, please wait...</string>
+    <string name="connection_error">an error was encountered while trying to establish a connection -></string>
+    <string name="failed_connection">Failed to connect to the Smart Button server. Please close and reopen the app to try again.</string>
+    <string name="unstable_internet_error">Failed to send your Smart Button alert at this time, please try again. Note: This error can be caused by an unstable internet connection.</string>
+    <string name="SB_error">The Smart Button® Alert system is disabled. If you have access to the Smart Button® COVID-19 Survey system, please select a COVID-19 related incident.</string>
+    <string name="select_option_error">You must select an Incident option before sending a Smart Button® report.</string>
+    <string name="location_tracking_error">issue tracking location</string>
+    <string name="home_snackbar_phone">Phone call is not supported in this device</string>
+    <string name="home_offline_text">You are not connected to internet.</string>
+    <string name="home_progress">progress</string>
+    <string name="home_emergency">Emergency</string>
+    <string name="home_inactive">Your user is not active anymore. Contact your administrator.</string>
+
+    <!--ClearScreen.java-->
+    <string name="Stay_Home">please stay home. Do not come to work or school. Please contact your health care provider.</string>
+    <string name="Please_Stay_Home">Please stay home. Do not come to work or school. Please contact your health care provider.</string>
+    <string name="Cleared">you are cleared to come to work/school.</string>
+    <string name="Is_Cleared">You are cleared to come to work/school.</string>
+
+    <!--StandardConfirmationView.java-->
+    <string name="Submission">Thank you for your submission.</string>
+
+    <!--Activity_Login.xml-->
+    <string name="Bottom_Text">If you do not have your username and password for Smart Button®, please contact your administration team </string>
+
+    <!--IdentityActivity-->
+    <string name="Exceeded_Limit">You have exceeded the 5 contact limit</string>
+    <string name="Enter_num_or_email">You must enter a cell number or an email</string>
+    <string name="Invalid_num_or_email">You have entered an invalid phone number</string>
+    <string name="Uploading_Image">Uploading image. Please wait...</string>
+    <string name="Uploading">Uploading image ...</string>
+    <string name="Upload_Success">Upload image success</string>
+    <string name="Upload_Failure">Failed to upload image</string>
+    <string name="Failed_Response">Failed to get a response</string>
+    <string name="Failed_Image">Error: Failed to upload image</string>
+    <string name="Info_Saved">Information has been saved successfully!</string>
+    <string name="Info_Error">There was an error in saving your information!</string>
+
+    <!--content_password_reset.xml-->
+    <string name="Enter_Password">Enter password</string>
+    <string name="Password_Confirmed">Confirm your password</string>
+    <string name="Reset_Button">Reset</string>
+
+    <!--content_email_confirm.xml-->
+    <string name="Enter_Email">Enter your email</string>
+    <string name="Confirm_Email">Confirm your email</string>
+    <string name="Next">Next</string>
+
+    <!--forgot_password_activity-->
+    <string name="Enter_Email_Text">Enter the email address associated with your Smart Button® account</string>
+    <string name="Enter_Email_Address">Enter email address</string>
+    <string name="Long_Text_PR">If the email address provided is valid, the username and password associated with the account will be delivered to the email address</string>
+    <string name="Send_Password">Send Password</string>
+
+    <!--MainActivity-->
+    <string name="Internet_Connection">You are not connected to internet.</string>
+
+    <!--HelpActivity-->
+    <string name="No_Internet">You are not connected to internet.</string>
+    <string name="Loading_Resources">Loading resources, please wait...</string>
+    <string name="Please_Wait">Please wait...</string>
+
+    <!--NotificationsMenuActivity-->
+    <string name="Send_Broadcasts_To_Mobile_App">Send Broadcasts to mobile apps</string>
+
+    <!--NotificationsDetailActivity-->
+    <string name="Getting_Messages">Getting push messages...</string>
+
+    <!--DefaultChatList-->
+    <string name="chatlist_progressdialog1">Loading your list of conversations, please wait...</string>
+    <string name="generic_error_title">ERROR</string>
+    <string name="chatlist_errormess1">Failed to load your list of conversations. Note: Moving to a different tab and then reopening the Conversations tab may help fix this error.</string>
+    <string name="chatlist_chattitlenull">Chat #</string>
+    <string name="chatlist_chatsender1">You: </string>
+    <string name="signalrchat_toastmess1">Connection Established</string>
+    <string name="broadcast_locationgroups_defaultmess1">Select Location Group(s)</string>
+    <string name="broadcast_messages_defaultmess1">Select Canned Message</string>
+    <string name="broadcast_contacts_defaultmess1">Send To:</string>
+    <string name="broadcast_contacts_defaultmess2">Select User Type Group(s)</string>
+    <string name="broadcast_locationgroups_defaultmess2">All Location Groups</string>
+    <string name="broadcast_buttontext_cancel1">Clear Selection</string>
+    <string name="broadcast_buttontext_success1">Done</string>
+    <string name="broadcast_cannedmess_defaultmess1">Choose a Canned Message</string>
+    <string name="chooserec_title">Choose Receiver</string>
+    <string name="chooserec_button_title1">Choose</string>
+    <string name="createconvo_successmess1">Creating Conversation...</string>
+    <string name="createconvo_errormess1">You must enter a message first</string>
+    <string name="createconvo_progressdialog_mess1">Sending message...</string>
+    <string name="generic_errormess1">Something went wrong</string>
+    <string name="createconvo_successmess2">Message was successfully sent!</string>
+    <string name="addroom_successmess1">Information has been saved successfully!</string>
+    <string name="addroom_errormess1">There was an error in saving your information!</string>
+    <string name="generic_progressdialog_mess1">Loading, please wait...</string>
+    <string name="chatitemdetail_progressdialog_mess1">Sending message...</string>
+    <string name="chatitemdetail_progressdialog_mess2">Incoming message...</string>
+    <string name="chatitemdetail_successmess1">Message was successfully sent!</string>
+    <string name="notiflist_errormess1">Failed to load your most recent notifications. Note: Moving to a different tab and then reopening the Notifications tab may help fix this error.</string>
+    <string name="generic_progressdialog_mess2">Please wait...</string>
+    <string name="emailconfirm_toastmess1">Fill out the required fields.</string>
+    <string name="emailconfirm_toastmess2">Email is not valid.</string>
+    <string name="emailconfirm_toastmess3">The email entered and its confirmation do not match.</string>
+    <string name="passreset_toastmess1">Fill out the required fields.</string>
+    <string name="passreset_toastmess2">Password and its confirmation are not matched.</string>
+    <string name="passreset_toastmess3">Password can\'t be changeme. This temporary password is only for the first login.</string>
+    <string name="createconvo_hint1">Message</string>
+    <string name="createconvo_buttontext1">Send</string>
+    <string name="generic_buttontext_accept1">I Agree</string>
+    <string name="broadcast_locationgroups_defaultmess3">Multiple Location Groups</string>
+    <string name="broadcast_clear_successmess1">Your broadcast has been cleared from desktops</string>
+    <string name="broadcast_clear_errormess1">Something went wrong while clearing your broadcast from desktops, please try again</string>
+    <string name="broadcast_apps_successmess1">Your broadcast has been pushed to other SmartButton® apps</string>
+    <string name="broadcast_apps_errormess1">Something went wrong while sending your broadcast to other SmartButton® apps, please try again</string>
+    <string name="sending_smartbutton_alert">Sending your Smart Button alert, please wait...</string>
+    <string name="broadcast_desks_successmess1">"Your broadcast has been sent to "</string>
+    <string name="broadcast_desks_errormess1">Something went wrong while sending your broadcast, please try again</string>
+    <string name="broadcast_desks_successmess2">Your broadcast to desktops was sent successfully</string>
+    <string name="broadcast_locationgroups_errormess1">You must select a group to send to</string>
+    <string name="broadcast_locationgroups_errormess2">You must check an option to send to</string>
+    <string name="broadcast_locationgroups_errormess3">You must enter a broadcast message</string>
+    <string name="tabbar_chatreceived1">New conversation message received</string>
+    <string name="tabbar_notifreceived1">New push message received</string>
+    <string name="mm_permissions_warning1">There are some permissions required. Please allow in App Settings for additional functionality</string>
+    <string name="mm_permissions_warning2">Fine location permission needed for locating. Please allow in App Settings for additional functionality.</string>
+    <string name="mm_permissions_warning3">Coarse location  permission needed for locating. Please allow in App Settings for additional functionality.</string>
+    <string name="mm_permissions_warning4">Camera permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="mm_permissions_warning5">External Storage permission needed. Please allow in App Settings for additional functionality.</string>
+    <string name="mm_permissions_warning6">Microphone permission needed for recording. Please allow in App Settings for additional functionality.</string>
+    <string name="mm_permissions_warning7">Call permission is required.</string>
+    <string name="mm_permissions_warning8">Network permissions are required. Please allow in App Settings for additional functionality</string>
+    <string name="incident_not_selected">INCIDENT NOT SELECTED</string>
+    <string name="incident_not_selected_message">You must select an Incident option before sending a Smart Button® report.</string>
+    <string name="important">You must select an Incident option before sending a Smart Button® report.</string>
+    <string name="smart_button_disabled">The Smart Button® Alert system is disabled. If you have access to the Smart Button® COVID-19 Survey system, please select a COVID-19 related incident.</string>
+    <string name="understand">I Understand</string>
+    <string name="done">Done</string>
+    <string name="question_button_text2">Multiple Options Selected</string>
+    <string name="broadcast_contacts_defaultmess3">Multiple User Type Groups Selected</string>
+    <string name="question_error_title1">Please Update Your COVID-19 Status</string>
+    <string name="question_error_mess1">You must select a new status before submitting a response to the SmartButton® COVID-19 Questionnaire.</string>
+    <string name="question_button_text3">Done</string>
+    <string name="broadcast_locationgroups_dialogtitle1">Select Group(s) for Notifications</string>
+    <string name="broadcast_contacts_dialogtitle1">Select User Type Group(s)</string>
+    <string name="question_title2">Click and select all that apply.</string>
+    <string name="error_loadingprofile">Failed to load your profile information at this time. Please close and reopen the app to try again.</string>
+    <string name="broadcast_title">Send Emergency Broadcast</string>
+    <string name="broadcast_loading1">Loading your broadcast settings, please wait...</string>
+    <string name="generic_loading3">Processing, please wait...</string>
+    <string name="broadcast_loading4">Sending your broadcast to other app users, please wait...</string>
+    <string name="broadcast_loading5">Sending your broadcast to other app and desktop users, please wait...</string>
+    <string name="broadcast_loading6">Sending your broadcast to desktop users, please wait...</string>
+    <string name="generic_done">Done</string>
+    <string name="broadcast_button_clear">Clear Selection</string>
+    <string name="broadcast_generic_errormess1">Something went wrong while sending your broadcast, please try again.</string>
+    <string name="broadcast_generic_successmess1">Your broadcast was sent successfully.</string>
+    <string name="chat_channel_name">Smart Button® - Conversation Messages</string>
+    <string name="chat_channel_description">Receive notifications for new chat messages.</string>
+    <string name="chat_channel_id">foreground_chat_channel</string>
+    <string name="generic_caution">Caution</string>
+    <string name="locationtracker_indeterminant">Your location could not be determined. Would you like to send your Smart Button® Report without reporting your location?</string>
+    <string name="generic_no">No</string>
+    <string name="generic_close">Close</string>
+
+</resources>

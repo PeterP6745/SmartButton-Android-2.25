@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "334368165423",
+    "firebase_url": "https://smartbutton-1292.firebaseio.com",
+    "project_id": "smartbutton-1292",
+    "storage_bucket": "smartbutton-1292.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334368165423:android:d69bda13d54452e9",
+        "android_client_info": {
+          "package_name": "messagelogix.com.smartbuttoncommunications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334368165423-4v7qqus3594jk06dj4huqf02t26umdrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMFnUo3MaYmplXqFDhFP2D_jsLbFusLQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "334368165423-4v7qqus3594jk06dj4huqf02t26umdrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

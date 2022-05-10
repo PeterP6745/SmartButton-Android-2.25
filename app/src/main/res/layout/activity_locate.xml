@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:fitsSystemWindows="true">
+
+    <RelativeLayout
+        android:id="@+id/LocateMeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <WebView
+            android:id="@+id/webView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical"
+            tools:ignore="ExtraText">
+
+            <ImageButton
+                android:id="@+id/locate_me_button"
+                android:layout_width="@dimen/smart_button_size"
+                android:layout_height="@dimen/smart_button_size"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/imageselector"
+                android:scaleType="fitXY" />
+
+            <EditText
+                android:id="@+id/full_name_editText"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_alignEnd="@+id/school_spinner"
+                android:layout_alignRight="@+id/school_spinner"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginRight="20dp"
+                android:ems="10"
+                android:hint="@string/reveal_your_name_lbl"
+                android:inputType="textPersonName"
+                android:textSize="20sp"
+                android:visibility="gone" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="@dimen/progress_bar_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin_5"
+                android:visibility="invisible" />
+
+            <Spinner
+                android:id="@+id/school_spinner"
+                android:layout_width="@dimen/spinner_width"
+                android:layout_height="@dimen/spinner_height"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_marginBottom="10dp"
+                android:background="@color/yellow_light"
+                android:spinnerMode="dropdown"
+                />
+
+            <Spinner
+                android:id="@+id/message_spinner"
+                android:layout_width="@dimen/spinner_width"
+                android:layout_height="@dimen/spinner_height"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:background="@color/green_light"
+                android:spinnerMode="dropdown"
+                android:singleLine="true"
+                android:prompt="@string/spinner_title"
+                android:visibility="gone"
+                />
+
+            <Button
+                android:id="@+id/attach_home_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/blue_button"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+                android:padding="10dp"
+                android:text="@string/attach_media"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/my_identity_button"
+                android:layout_width="130dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/blue_button"
+                android:bottomLeftRadius="10dp"
+                android:bottomRightRadius="10dp"
+                android:drawableLeft="@drawable/ic_perm_identity_white_24dp"
+                android:padding="10dp"
+                android:text="flashlight"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:topLeftRadius="10dp"
+                android:topRightRadius="10dp"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/covidSelectionButton"
+                android:layout_width="@dimen/spinner_width"
+                android:layout_height="@dimen/spinner_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:background="@color/blue_light"
+                android:text="@string/question_button_text1"
+                android:textSize="14sp"
+                android:visibility="gone"
+                android:singleLine="true"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="@string/patent_notice"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textSize="10sp"/>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="@dimen/call_911_size"
+            android:layout_height="@dimen/call_911_size"
+            android:layout_above="@+id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:cropToPadding="false"
+            android:scaleType="center"
+            android:src="@drawable/ic_red_phone"
+            android:visibility="gone" />
+
+        <!--<android.support.design.widget.FloatingActionButton-->
+        <!--android:layout_width="56dp"-->
+        <!--android:layout_height="56dp"-->
+        <!--android:layout_above="@+id/fab"-->
+        <!--android:layout_alignLeft="@+id/fab"-->
+        <!--android:layout_alignStart="@+id/fab"-->
+        <!--android:layout_marginBottom="13dp"-->
+        <!--android:id="@+id/floatingFlashLightButton"-->
+        <!--android:backgroundTint="@color/blue"-->
+        <!--android:src="@drawable/ic_help_black_24dp"-->
+        <!--/>-->
+
+    </RelativeLayout>
+</android.support.design.widget.CoordinatorLayout>

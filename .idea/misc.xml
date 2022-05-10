@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_chatitem_list_experimental.xml" value="0.22" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_identity.xml" value="0.2957427536231884" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_locate.xml" value="0.2957427536231884" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_notifications_menu.xml" value="0.2957427536231884" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_pushnotifications_list.xml" value="0.146875" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/activity_tab.xml" value="0.1" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/chatitem_list.xml" value="0.1" />
+        <entry key="..\:/Tai Projects - 2021/smartButtonLanguageTranslationPrototype/app/src/main/res/layout/content_main.xml" value="0.20260416666666667" />
+        <entry key="app/src/main/res/layout/activity_chatitem_detail.xml" value="0.30104166666666665" />
+        <entry key="app/src/main/res/layout/activity_chatitem_list_experimental.xml" value="0.5" />
+        <entry key="app/src/main/res/layout/activity_chatlist.xml" value="0.1671875" />
+        <entry key="app/src/main/res/layout/activity_chatlist_standardusers.xml" value="0.5130208333333334" />
+        <entry key="app/src/main/res/layout/activity_conversations_menu.xml" value="0.2911458333333333" />
+        <entry key="app/src/main/res/layout/activity_identity.xml" value="0.33016304347826086" />
+        <entry key="app/src/main/res/layout/activity_notifications_menu.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/activity_notificationslist.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/activity_notiflist_standardusers.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/activity_pushnotifications_detail.xml" value="0.4171875" />
+        <entry key="app/src/main/res/layout/activity_pushnotifications_list.xml" value="0.2786458333333333" />
+        <entry key="app/src/main/res/layout/activity_select_signalr_chat.xml" value="0.31302083333333336" />
+        <entry key="app/src/main/res/layout/activity_send_broadcast.xml" value="0.43333333333333335" />
+        <entry key="app/src/main/res/layout/activity_signalr_chat.xml" value="0.22395833333333334" />
+        <entry key="app/src/main/res/layout/activity_web_view.xml" value="0.4114583333333333" />
+        <entry key="app/src/main/res/layout/chatitem_list.xml" value="0.3463541666666667" />
+        <entry key="app/src/main/res/layout/fragment_chatlist.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/fragment_conversations_menu 2.xml" value="0.21666666666666667" />
+        <entry key="app/src/main/res/layout/fragment_conversations_menu 3.xml" value="0.51875" />
+        <entry key="app/src/main/res/layout/fragment_conversations_menu.xml" value="0.4119791666666667" />
+        <entry key="app/src/main/res/layout/fragment_experimental_layout.xml" value="0.32864583333333336" />
+        <entry key="app/src/main/res/layout/fragment_notifications_menu.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/fragment_notiflist_default.xml" value="0.27291666666666664" />
+        <entry key="app/src/main/res/layout/fragment_notiflist_standard.xml" value="0.3703125" />
+        <entry key="app/src/main/res/layout/fragment_signalr_chatwindow.xml" value="0.3380208333333333" />
+        <entry key="app/src/main/res/layout/fragment_signalr_grouplist.xml" value="0.31302083333333336" />
+        <entry key="app/src/main/res/layout/fragment_signalrgrouplist.xml" value="0.31302083333333336" />
+        <entry key="app/src/main/res/layout/list_item_signalr_locations.xml" value="0.328125" />
+        <entry key="app/src/main/res/layout/pushnotifications_detail.xml" value="0.2890625" />
+        <entry key="app/src/main/res/layout/pushnotifications_list.xml" value="0.43697916666666664" />
+        <entry key="app/src/main/res/layout/pushnotifications_list_content.xml" value="0.4171875" />
+        <entry key="app/src/main/res/layout/pushnotifications_list_content_experimental.xml" value="0.4171875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

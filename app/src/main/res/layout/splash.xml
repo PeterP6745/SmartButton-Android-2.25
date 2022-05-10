@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+    >
+
+    <TextView
+        android:id="@+id/smartButtonTextView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="Smart Button\u00AE"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/splash_image"
+        android:layout_height="@dimen/splash_image"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@mipmap/sb_iconimageset_2020_round"/>
+
+</RelativeLayout>

@@ -1,0 +1,105 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:padding="5dp"
+    >
+<!--    <TextView-->
+<!--        android:id="@+id/notifdetail_header"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/notifdetail_string_header"-->
+<!--        style="?android:attr/textAppearanceLarge"/>-->
+
+<!--    <ProgressBar-->
+<!--        android:id="@+id/notifdetail_progressbar"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:indeterminate="true"-->
+<!--        android:layout_centerVertical="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:visibility="visible"-->
+<!--        style="@android:style/Widget.ProgressBar.Large"/>-->
+    <TextView
+        android:id="@+id/notifdetail_section_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/notifdetail_string_date"
+        android:layout_marginTop="5dp"
+        android:textColor="#2f81ac"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/notifdetail_timestamp_received"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/notifdetail_section_date"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignBaseline="@id/notifdetail_section_date"
+        android:layout_alignParentRight="true"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/notifdetail_section_date"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_gray"
+        />
+
+    <TextView
+        android:id="@+id/notifdetail_section_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notifdetail_section_date"
+        android:layout_marginTop="10dp"
+        android:text="@string/notifdetail_string_message"
+        android:textColor="#2f81ac"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/pushnotifications_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notifdetail_section_message"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentLeft="true"
+        android:textIsSelectable="true"
+        tools:context=".notifications.NotificationsDetailFragment"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/pushnotifications_detail"
+        android:background="@color/light_gray"
+        />
+
+    <TextView
+        android:id="@+id/notifdetail_section_firstviewed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pushnotifications_detail"
+        android:layout_marginTop="5dp"
+        android:text="@string/notifdetail_string_firstopened"
+        android:textColor="#2f81ac"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/notifdetail_timestamp_firstviewed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/notifdetail_section_firstviewed"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>

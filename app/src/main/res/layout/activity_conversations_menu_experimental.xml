@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="Mobile"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:background="@color/blue_lighter"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_forum_black_24dp"
+            android:padding="5dp"
+            android:contentDescription="@string/push_notifications"
+            />
+
+        <LinearLayout
+            android:id="@+id/two_way_chat_lin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mobile 2-Way Conversations"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Access 1-to-1 conversations"
+                android:textSize="13sp"
+                android:textColor="@color/title_gray"
+
+                />
+            <fragment
+                android:name="messagelogix.com.smartbuttoncommunications.activities.conversations.DefaultChatList"
+                android:id="@+id/chatlist_fragment"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center_vertical"
+        android:text="Desktop/Mobile"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:background="@color/blue_lighter"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_forum_black_24dp"
+            android:padding="5dp"
+            android:contentDescription="@string/push_notifications"
+            />
+
+        <LinearLayout
+            android:id="@+id/signalr_chat_lin_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="5dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/emergency_conversations"
+                android:textColor="@color/black"
+                android:textSize="18sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Access Emergency Conversations"
+                android:textSize="13sp"
+                android:textColor="@color/title_gray"
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>
